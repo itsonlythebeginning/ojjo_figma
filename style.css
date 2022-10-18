@@ -80,13 +80,13 @@ header{
 
 
 .intro{
-    padding-top: 700px;
+    padding-top: 60vh;
     background: url("bgc.jpg") no-repeat center / cover;
     min-height: 100vh;
 }
 
 .intro_top{
-    margin-bottom: 80px;
+    margin-bottom: 9vh;
     text-align: center;
 }
 
@@ -206,7 +206,6 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 45px;
 }
 
 .intro_bottom_box{
@@ -225,7 +224,7 @@ header{
     background-color: #FFFFFF;
     width: 100%;
     height: 1px;
-    margin-bottom: 45px;
+    margin-bottom: 5vh;
 }
 .natural_beautiful{
     padding-top: 100px;
@@ -801,8 +800,6 @@ header{
 }
 
 
-
-
 @media screen and (max-width: 1199px)  {
     .container{
         max-width: 960px;
@@ -815,7 +812,6 @@ header{
         margin-bottom: 35px;
     }
     .intro_top {
-        margin-bottom: 60px;
         text-align: center;
     }
 
@@ -857,11 +853,6 @@ header{
     .container {
         max-width: 720px;
     }
-
-    .intro {
-        padding-top: 530px;
-    }
-
 
     .left {
         position: fixed;
@@ -967,8 +958,6 @@ header{
     }
 
 
-
-
     .useful_articles_pic {
         height: 332px;
     }
@@ -1015,18 +1004,12 @@ header{
         align-items: start;
     }
 
-
-
-
-
-
 }
 
 @media screen and (max-width: 767px) {
     .container{
         max-width: 540px;
     }
-
 
     .natural_beautiful_boxes{
         grid-template-columns: repeat(2, 1fr);
@@ -1036,8 +1019,6 @@ header{
         margin-bottom: 65px;
         padding: 0px 35px;
     }
-
-
 
 
     #login_register{
@@ -1123,19 +1104,15 @@ header{
        margin-bottom: 20px;
     }
 
-
-
 }
 
 @media screen and (max-width: 575px)  {
-    .intro {
-        padding-top: 330px;
-    }
+
     .hr_bottom {
         margin-bottom: 25px;
     }
     .intro_bottom {
-        padding-bottom: 15px;
+        padding-bottom: 5vh;
         padding-left: 15px;
     }
     .intro_title {
@@ -1193,7 +1170,6 @@ header{
         padding: 0px 20px;
     }
 
-
     .jewerly_pic {
         height: 300px;
     }
@@ -1218,9 +1194,6 @@ header{
     .useful_articles_boxes {
         padding: 0px 20px;
     }
-
-
-
 
 }
 
@@ -1272,7 +1245,6 @@ header{
         padding: 0px 20px;
     }
 
-
     .footer_menu {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -1284,7 +1256,6 @@ header{
         font-weight: 700;
         margin-bottom: 15px;
         font-size: 20px;
-
     }
 
     .footer_menu_link {
@@ -1326,8 +1297,6 @@ header{
         margin-right: 0px;
     }
 
-
-
     .footer_bottom_menu {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1344,27 +1313,9 @@ header{
         margin-bottom: 0px;
     }
 
-
-
-
-
-
-
-
-
-
     .footer_bottom_link {
         font-size: 16px;
     }
-
-
-
-
-
-
-
-
-
 
 }
 
@@ -1439,7 +1390,6 @@ header{
 
 @media screen and (max-width: 380px)  {
 
-
     .natural_beautiful_boxes {
         padding-left: 20px;
         padding-right: 20px;
@@ -1465,63 +1415,16 @@ header{
         height: 380px;
     }
 
+}
+
+@media screen and (max-height: 700px)  {
+    .intro{
+        padding-top: 55vh;
+    }
 
 }
 
 
-@media screen and  (max-height: 1000px) {
-    .intro {
-        padding-top: 650px;
-    }
-}
-@media screen and  (max-height: 950px) {
-    .intro {
-        padding-top: 600px;
-    }
-}
-@media screen and  (max-height: 900px) {
-    .intro {
-        padding-top: 600px;
-    }
-}
-@media screen and  (max-height: 850px) {
-    .intro {
-        padding-top: 550px;
-    }
-}
-@media screen and  (max-height: 800px) {
-    .intro {
-        padding-top: 450px;
-    }
-}
-@media screen and  (max-height: 750px) {
-    .intro {
-        padding-top: 400px;
-    }
-}
-@media screen and  (max-height: 700px) {
-    .intro {
-        padding-top: 350px;
-    }
-}
-@media screen and  (max-height: 650px) {
-    .intro {
-        padding-top: 300px;
-    }
-}
-@media screen and  (max-height: 600px) {
-    .intro {
-        padding-top: 250px;
-    }
-}
-@media screen and  (max-height: 550px) {
-    .intro {
-        padding-top: 200px;
-    }
-}
-@media screen and  (max-height: 500px) {
-    .intro {
-        padding-top: 150px;
-    }
-}
+
+
 
