@@ -8,4 +8,7 @@ Try it here: https://itsonlythebeginning.github.io/ojjo_figma/
 нейминг по методологии БЭМ
 
 
+
 ![github io (1)](https://user-images.githubusercontent.com/107440223/196307809-074f9eec-f91f-4f1b-941a-43b1c8f1aabc.jpg)
+
+P.S. на скриншоте не прогрузились видео
