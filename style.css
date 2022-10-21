@@ -82,6 +82,7 @@ header{
 .intro{
     padding-top: 60vh;
     background: url("bgc.jpg") no-repeat center / cover;
+    min-height: 100vh;
 }
 
 .intro_top{
