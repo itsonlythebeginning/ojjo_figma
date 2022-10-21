@@ -69,5 +69,5 @@ header_burger.addEventListener("click", function () {
 let windowInnerHeight = window.innerHeight
 let intro = document.querySelector(".intro")
 
-intro.style.height = windowInnerHeight + "px"
+intro.style.height = (windowInnerHeight - 50) + "px"
 
