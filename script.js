@@ -66,7 +66,8 @@ header_burger.addEventListener("click", function () {
 
 })
 
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
+let windowInnerHeight = window.innerHeight
+let intro = document.querySelector(".intro")
 
+intro.style.height = windowInnerHeight + "px"
 
