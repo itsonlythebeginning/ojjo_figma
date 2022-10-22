@@ -65,5 +65,10 @@ header_burger.addEventListener("click", function () {
     left.classList.add("left_active")
 
 })
-
+//Предварительно делаем мобайл детект
+//...
+if ($('body').hasClass('mobile')) {
+    //добавляем inline стиль, в котором фиксируем высоту титульного блока
+    $('.main').css({ height: window.innerHeight });
+}
 
