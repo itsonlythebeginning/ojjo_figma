@@ -65,10 +65,10 @@ header_burger.addEventListener("click", function () {
     left.classList.add("left_active")
 
 })
-//Предварительно делаем мобайл детект
-//...
-if ($('body').hasClass('mobile')) {
-    //добавляем inline стиль, в котором фиксируем высоту титульного блока
-    $('.main').css({ height: window.innerHeight });
-}
+
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+let intro = document.querySelector(".intro")
+intro.style.minHeight = vh + "px"
 
