@@ -1421,12 +1421,12 @@ header{
 
 }
 
-@media screen and (max-height: 700px)  {
-    .intro{
-        padding-top: 53vh;
-    }
+/*@media screen and (max-height: 700px)  {*/
+/*    .intro{*/
+/*        padding-top: 53vh;*/
+/*    }*/
 
-}
+/*}*/
 
 
 
